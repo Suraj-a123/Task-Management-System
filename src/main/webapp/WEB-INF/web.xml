@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+         https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+  <display-name>CtrlPlusSubmit</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.xhtml</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.xhtml</welcome-file>
+  </welcome-file-list>
+  <listener>
+  	<listener-class>in.ctrlplussubmit.util.AppInitializer</listener-class>
+  </listener>
+  <context-param>
+  		<param-name>url</param-name>
+  		<param-value>jdbc:Mysql://localhost:3306/college</param-value>
+  </context-param>
+  <context-param>
+  		<param-name>username</param-name>
+  		<param-value>root</param-value>
+  </context-param>
+  <context-param>
+  		<param-name>password</param-name>
+  		<param-value>Suraj#123</param-value>
+  </context-param>
+</web-app>
