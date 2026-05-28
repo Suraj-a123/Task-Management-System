@@ -42,7 +42,7 @@ It allows role-based task management for Admin, Faculty, and Students, including
 5. Deploy the project on Tomcat server  
 
 ## Screenshots
-*Optional: Add screenshots of your dashboard, task pages, or submission page here.*
+
 
 ## Author
 **Suraj Prakash** – 3rd-year CSE Student  
